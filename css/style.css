@@ -500,3 +500,118 @@ text-align:center ;
  
     
 }
+@media screen  and (max-width:768px){
+    .banner__heading{
+    font-size: 40px;
+    }
+    .head__img{
+    max-width: 100%;
+    }
+    .theworld{
+    max-width: 100%;
+    }
+    .credit1{
+    max-width: 100%;
+    }
+    .hopcard__wrap{
+    gap: 60px;
+    }
+    .apps{
+
+        padding: 23px 32px;
+          }
+ 
+    .app__wrap{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .app__comfort{
+    gap: 15px;
+    }
+
+    .header__wrap{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .curents__h{
+        margin-top: 100px;
+    }
+    .goog{
+        max-width: 100%;
+        }
+        .apple{
+        max-width: 100%;
+        }
+}
+@media screen and (max-width:425px) {
+    .nav{
+    flex-direction: column;
+    }
+    .banner__heading{
+    font-size: 30px;
+    }
+
+    .apps{
+
+        padding: 23px 32px;
+          }
+  
+    .curents__wrap{
+    gap: 0px;
+    flex-direction: column;
+    padding-top: 20px;
+    }
+    .curents__value::after{
+    width: 30px;
+    }
+    .curents__value::before{
+    width: 30px;
+    }
+    .curents__value{
+    width: 284px;
+    }
+    .hopcard__wrap{
+    flex-direction: column;
+
+    }
+    .credit__wrap{
+    flex-direction: column;
+    }
+    .app__h3{
+    font-size: 28px;
+    }
+    .comfort__h4{
+    font-size: 20px;
+    }
+    .men{
+        max-width: 100%;
+    }
+    .goog{
+        max-width: 100%;
+        }
+        .apple{
+        max-width: 100%;
+        }
+ }
+@media screen and (max-width:375px) {
+    .men{
+        max-width: 100%;
+    }  
+    .app__h3{
+        font-size: 25px;
+        }
+  
+
+            
+            .apps{
+
+                  padding: 23px 32px;
+                    }
+                    .goog{
+                    max-width: 100%;
+                    }
+                    .apple{
+                    max-width: 100%;
+                    }
+            }
